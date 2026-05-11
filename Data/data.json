@@ -1,0 +1,828 @@
+[{
+"time": 1778538878,
+"resourceId":"/tenants/05d75c05-faccla-4aa2ex7x-1-606050/providers/Microsoft.aadiam",
+"operationName":"Sign-in activity",
+"operationVersion":"1.0",
+"category": "SignInLogs",
+"tenantId":"05d75c05-fala-42e7-9cf1-eb416c396f2d",
+"resultType":"0",
+"resultSignature":"SUCCESS",
+"durationMs":0,
+"callerIpAddress":"194.78.65.86",
+"correlationId":"c9900323-9d63-4236-ae24-d27629755b65",
+"identity":"Micheal Jackson",
+"level":"4",
+"location":"BE",
+"properties":
+{
+"id":"e3v4f69-2992-4sce-35c7-1562345987000",
+"createdDateTime":"1746809627",
+"userDisplayName":"Micheal Jackson",
+"userPrincipalName":"micheal.jackson@Myorg.com",
+"userId":"12345678-ca34-1234-nnnn-4656341234",
+"agent":
+{
+"agentType": "notAgentic",
+"agentSubjectType":"notAgentic"
+},
+"appId":"29d9ed98-a469-4536-ade2-f981bc1d605e",
+"appDisplayName":"Microsoft Authentication Broker",
+"ipAddress":"194.78.65.86",
+"status":
+{
+"errorCode":0,
+"additionalDetails":"MFA requirement satisfied by claim in the token"
+},
+"clientAppUsed":"Mobile Apps and Desktop clients",
+"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10:15 ry:150.0) Gecko/20100101 Firefox/150.0",
+"deviceDetail":
+{
+"deviceId":"30th4v6a-8765-n2347-6483-cj473957snwu",
+"displayName":"Host0",
+"operatingSystem":"Android",
+"browser":"Firefox 150.0",
+"isCompliant":true,
+"isManaged":true,
+"trustType":"Azure AD Joined"
+},
+"location":
+{
+"city":"Brussels",
+"state":"Brussels",
+"countryOrRegion":"BE",
+"geoCoordinates":
+{
+"latitude":49.853678954604492,
+"longitude":3.353456776565918
+}
+},
+"correlationId":"c34569843-4d45-4023-df34-d34629655b6s",
+"conditionalAccessStatus":"success",
+"authenticationContextClassReferences":
+[
+{
+"id":"urn:user:registerdevice",
+"detail":"required"
+}
+],
+"originalRequestId":"c34569843-4d45-4023-df34-d34629655b6s",
+"isInteractive":true,
+"tokenIssuerType":"AzureAD",
+"authenticationProcessingDetails":
+[
+{
+"key":"Legacy TLs (TLs 1.0, 1.1, 3DES)",
+"value":"False"
+},
+{
+"key":"Is Legacy Store Used",
+"value": "False"
+},
+{
+"key":"Is CAE Token",
+"value":"False"
+}
+],
+"processingTimeInMilliseconds":362,
+"resourceDisplayName":"Device Registration Service",
+"resourceId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resourceTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"homeTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"tenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"authenticationDetails":
+[
+{
+"authenticationStepDateTime":"2026-05-09T21:29:45.6809629+00:06",
+"authenticationMethod":"Previously satisfied",
+"succeeded":true,
+"authenticationStepResultDetail":"MFA requirement satisfied by claim in the token"
+}
+],
+"authenticationRequirementPolicies":
+[
+{
+"requirementProvider":"multiconditionalAccess",
+"detail":"Conditional Access"
+}
+],
+"authenticationRequirement":"multiFactorAuthentication",
+"servicePrincipalName":"Microsoft Authentication Broker",
+"signInEventTypes":
+[
+"interactiveUser"
+],
+"servicePrincipalId":"@=00€€00-(0=0-ee00-ee00-00000000000o",
+"userType": "Member",
+"flaggedForReview":false,
+"isTenantRestricted":false,
+"autonomousSystemNumber":5432,
+"privateLinkDetails":
+{
+},
+"uniqueTokenIdentifier":"Y9DB5ZNDJ395JGU5NO",
+"authenticationProtocol":"deviceCode",
+"resourceServicePrincipalId":"c34569843-4d45-4023-df34-d34629655b6s",
+"tokenProtectionStatusDetails":
+{
+"signInSessionStatusCode":1004
+},
+"isThroughGlobalSecureAccess":false,
+"conditionalAccessAudiences":
+[
+"c34569843-4d45-4023-df34-d34629655b6s"
+],
+"sessionId":"c34569843-4d45-4023-df34-d34629655b6s",
+"appOwnerTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resourceOwnerTenantId ":"c34569843-4d45-4023-df34-d34629655b6s"
+}
+},
+{
+"time": 1778538878,
+"resourceId":"/tenants/c34569843-4d45-4023-df34-d34629655b6s/providers/Microsoft.aadiam",
+"operationName":"Sign-in activity",
+"operationVersion":"1.0",
+"category": "SignInLogs",
+"tenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resultType":"0",
+"resultSignature":"SUCCESS",
+"durationMs":0,
+"callerIpAddress":"194.78.65.86",
+"correlationId":"c34569843-4d45-4023-df34-d34629655b6s",
+"identity":"Micheal Jordon",
+"level":"4",
+"location":"NL",
+"properties":
+{
+"id":"c34569843-4d45-4023-df34-d34629655b6s",
+"createdDateTime":"2026-05-09T21:29:45.6809629+00:00",
+"userDisplayName":"Micheal Jordon",
+"userPrincipalName":"micheal.jordon@myorg.com",
+"userId":"c34569843-4d45-4023-df34-d34629655b6s",
+"agent":
+{
+"agentType": "notAgentic",
+"agentSubjectType":"notAgentic"
+},
+"appId":"29d9ed98-a469-4536-ade2-f981bc1d605e",
+"appDisplayName":"Microsoft Authentication Broker",
+"ipAddress":"194.78.64.56",
+"status":
+{
+"errorCode":0,
+"additionalDetails":"MFA requirement satisfied by claim in the token"
+},
+"clientAppUsed":"Mobile Apps and Desktop clients",
+"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10:15 ry:150.0) Gecko/20100101 Firefox/150.0",
+"deviceDetail":
+{
+"deviceId":"c34569843-4d45-4023-df34-d34629655b6s",
+"displayName":"Host1",
+"operatingSystem":"Android",
+"browser":"Firefox 150.0",
+"isCompliant":true,
+"isManaged":true,
+"trustType":"Azure AD registered"
+},
+"location":
+{
+"city":"Netherlands",
+"state":"Netherlands",
+"countryOrRegion":"NL",
+"geoCoordinates":
+{
+"latitude":78.85721969604492,
+"longitude":7.355830192565918
+}
+},
+"correlationId":"c34569843-4d45-4023-df34-d34629655b6s",
+"conditionalAccessStatus":"success",
+"authenticationContextClassReferences":
+[
+{
+"id":"urn:user:registerdevice",
+"detail":"required"
+}
+],
+"originalRequestId":"c34569843-4d45-4023-df34-d34629655b6s",
+"isInteractive":true,
+"tokenIssuerType":"AzureAD",
+"authenticationProcessingDetails":
+[
+{
+"key":"Legacy TLS (Tls 1.0, 1.1, 3DES)",
+"value":"False"
+},
+{
+"key":"Is Legacy Store Used",
+"value": "False"
+},
+{
+"key":"Is CAE Token",
+"value":"False"
+}
+],
+"processingTimeInMilliseconds":362,
+"resourceDisplayName":"Device Registration Service",
+"resourceId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resourceTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"homeTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"tenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"authenticationDetails":
+[
+{
+"authenticationStepDateTime":"2026-05-09T21:29:45.6809629+00:06",
+"authenticationMethod":"Previously satisfied",
+"succeeded":true,
+"authenticationStepResultDetail":"MFA requirement satisfied by claim in the token"
+}
+],
+"authenticationRequirementPolicies":
+[
+{
+"requirementProvider":"multiconditionalAccess",
+"detail":"Conditional Access"
+}
+],
+"authenticationRequirement":"multiFactorAuthentication",
+"servicePrincipalName":"Microsoft Authentication Broker",
+"signInEventTypes":
+[
+"interactiveUser"
+],
+"servicePrincipalId":"@=00€€00-(0=0-ee00-ee00-00000000000o",
+"userType": "Member",
+"flaggedForReview":false,
+"isTenantRestricted":false,
+"autonomousSystemNumber":5432,
+"privateLinkDetails":
+{
+},
+"uniqueTokenIdentifier":"Y9DB5ZN83HDYEHxxhicNS83HC",
+"authenticationProtocol":"deviceCode",
+"resourceServicePrincipalId":"c34569843-4d45-4023-df34-d34629655b6s",
+"tokenProtectionStatusDetails":
+{
+"signInSessionStatusCode":1004
+},
+"isThroughGlobalSecureAccess":false,
+"conditionalAccessAudiences":
+[
+"c34569843-4d45-4023-df34-d34629655b6s"
+],
+"sessionId":"c34569843-4d45-4023-df34-d34629655b6s",
+"appOwnerTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resourceOwnerTenantId ":"c34569843-4d45-4023-df34-d34629655b6s"
+}
+},
+{
+"time": 1778538878,
+"resourceId":"/tenants/c34569843-4d45-4023-df34-d34629655b6s/providers/Microsoft.aadiam",
+"operationName":"Sign-in activity",
+"operationVersion":"1.0",
+"category": "SignInLogs",
+"tenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resultType":"0",
+"resultSignature":"SUCCESS",
+"durationMs":0,
+"callerIpAddress":"194.78.28.49",
+"correlationId":"c34569843-4d45-4023-df34-d34629655b6s",
+"identity":"Randy Orton",
+"level":"4",
+"location":"LA",
+"properties":
+{
+"id":"c34569843-4d45-4023-df34-d34629655b6s",
+"createdDateTime":"2026-05-09T21:29:45.6809629+00:00",
+"userDisplayName":"Randy Orton",
+"userPrincipalName":"randy.orton@myorg.com",
+"userId":"c34569843-4d45-4023-df34-d34629655b6s",
+"agent":
+{
+"agentType": "notAgentic",
+"agentSubjectType":"notAgentic"
+},
+"appId":"29d9ed98-a469-4536-ade2-f981bc1d605e",
+"appDisplayName":"Microsoft Authentication Broker",
+"ipAddress":"194.78.28.49",
+"status":
+{
+"errorCode":0,
+"additionalDetails":"MFA requirement satisfied by claim in the token"
+},
+"clientAppUsed":"Mobile Apps and Desktop clients",
+"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10:15 ry:150.0) Gecko/20100101 Firefox/150.0",
+"deviceDetail":
+{
+"deviceId":"c34569843-4d45-4023-df34-d34629655b6s",
+"displayName":"Host2",
+"operatingSystem":"Android",
+"browser":"Firefox 150.0",
+"isCompliant":true,
+"isManaged":true,
+"trustType":"Azure AD Joined"
+},
+"location":
+{
+"city":"Los Angeles",
+"state":"Los Angeles",
+"countryOrRegion":"LA",
+"geoCoordinates":
+{
+"latitude":50.85721969604492,
+"longitude":4.355830192565918
+}
+},
+"correlationId":"c34569843-4d45-4023-df34-d34629655b6s",
+"conditionalAccessStatus":"success",
+"authenticationContextClassReferences":
+[
+{
+"id":"urn:user:registerdevice",
+"detail":"required"
+}
+],
+"originalRequestId":"c34569843-4d45-4023-df34-d34629655b6s",
+"isInteractive":true,
+"tokenIssuerType":"AzureAD",
+"authenticationProcessingDetails":
+[
+{
+"key":"Legacy TLs (Tls 1.0, 1.1, 3DES)",
+"value":"False"
+},
+{
+"key":"Is Legacy Store Used",
+"value": "False"
+},
+{
+"key":"Is CAE Token",
+"value":"False"
+}
+],
+"processingTimeInMilliseconds":362,
+"resourceDisplayName":"Device Registration Service",
+"resourceId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resourceTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"homeTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"tenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"authenticationDetails":
+[
+{
+"authenticationStepDateTime":"2026-05-09T21:29:45.6809629+00:06",
+"authenticationMethod":"Previously satisfied",
+"succeeded":true,
+"authenticationStepResultDetail":"MFA requirement satisfied by claim in the token"
+}
+],
+"authenticationRequirementPolicies":
+[
+{
+"requirementProvider":"multiconditionalAccess",
+"detail":"Conditional Access"
+}
+],
+"authenticationRequirement":"multiFactorAuthentication",
+"servicePrincipalName":"Microsoft Authentication Broker",
+"signInEventTypes":
+[
+"interactiveUser"
+],
+"servicePrincipalId":"@=00€€00-(0=0-ee00-ee00-00000000000o",
+"userType": "Member",
+"flaggedForReview":false,
+"isTenantRestricted":false,
+"autonomousSystemNumber":5432,
+"privateLinkDetails":
+{
+},
+"uniqueTokenIdentifier":"Y9DB5ZEV3kGyxxBSG384HD",
+"authenticationProtocol":"deviceCode",
+"resourceServicePrincipalId":"c34569843-4d45-4023-df34-d34629655b6s",
+"tokenProtectionStatusDetails":
+{
+"signInSessionStatusCode":1004
+},
+"isThroughGlobalSecureAccess":false,
+"conditionalAccessAudiences":
+[
+"c34569843-4d45-4023-df34-d34629655b6s"
+],
+"sessionId":"c34569843-4d45-4023-df34-d34629655b6s",
+"appOwnerTenantId":"c34569843-4d45-4023-df34-d34629655b6s",
+"resourceOwnerTenantId ":"c34569843-4d45-4023-df34-d34629655b6s"
+}
+},
+{
+"time": 1778538878,
+"resourceId":"/tenants/08d29c04-dala-25e3-7s9t-eb416c9349f2d/providers/Microsoft.aadiam",
+"operationName":"Sign-in activity",
+"operationVersion":"1.0",
+"category": "SignInLogs",
+"tenantId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"resultType":"0",
+"resultSignature":"SUCCESS",
+"durationMs":0,
+"callerIpAddress":"194.78.33.45",
+"correlationId":"c08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"identity":"Taylor Swift",
+"level":"4",
+"location":"BE",
+"properties":
+{
+"id":"e5c1d063-1591-41de-b2c7-1862703f5000",
+"createdDateTime":"2026-05-09T21:29:45.6809629+00:00",
+"userDisplayName":"Taylor Swift",
+"userPrincipalName":"taylor.swift@myorg.com",
+"userId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"agent":
+{
+"agentType": "notAgentic",
+"agentSubjectType":"notAgentic"
+},
+"appId":"29d9ed98-a469-4536-ade2-f981bc1d605e",
+"appDisplayName":"Microsoft Authentication Broker",
+"ipAddress":"194.78.33.45",
+"status":
+{
+"errorCode":0,
+"additionalDetails":"MFA requirement satisfied by claim in the token"
+},
+"clientAppUsed":"Mobile Apps and Desktop clients",
+"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10:15 ry:150.0) Gecko/20100101 Firefox/150.0",
+"deviceDetail":
+{
+"deviceId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"displayName":"Host3",
+"operatingSystem":"Android",
+"browser":"Firefox 150.0",
+"isCompliant":true,
+"isManaged":true,
+"trustType":"Azure AD Joined"
+},
+"location":
+{
+"city":"Brussels",
+"state":"Brussels",
+"countryOrRegion":"BE",
+"geoCoordinates":
+{
+"latitude":50.85721969604492,
+"longitude":4.355830192565918
+}
+},
+"correlationId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"conditionalAccessStatus":"success",
+"authenticationContextClassReferences":
+[
+{
+"id":"urn:user:registerdevice",
+"detail":"required"
+}
+],
+"originalRequestId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"isInteractive":true,
+"tokenIssuerType":"AzureAD",
+"authenticationProcessingDetails":
+[
+{
+"key":"Legacy TLS (Tls 1.0, 1.1, 3DES)",
+"value":"False"
+},
+{
+"key":"Is Legacy Store Used",
+"value": "False"
+},
+{
+"key":"Is CAE Token",
+"value":"False"
+}
+],
+"processingTimeInMilliseconds":362,
+"resourceDisplayName":"Device Registration Service",
+"resourceId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"resourceTenantId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"homeTenantId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"tenantId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"authenticationDetails":
+[
+{
+"authenticationStepDateTime":"2026-05-09T21:29:45.6809629+00:06",
+"authenticationMethod":"Previously satisfied",
+"succeeded":true,
+"authenticationStepResultDetail":"MFA requirement satisfied by claim in the token"
+}
+],
+"authenticationRequirementPolicies":
+[
+{
+"requirementProvider":"multiconditionalAccess",
+"detail":"Conditional Access"
+}
+],
+"authenticationRequirement":"multiFactorAuthentication",
+"servicePrincipalName":"Microsoft Authentication Broker",
+"signInEventTypes":
+[
+"interactiveUser"
+],
+"servicePrincipalId":"@=00€€00-(0=0-ee00-ee00-00000000000o",
+"userType": "Member",
+"flaggedForReview":false,
+"isTenantRestricted":false,
+"autonomousSystemNumber":5432,
+"privateLinkDetails":
+{
+},
+"uniqueTokenIdentifier":"Y9DVNEIWS345euwyxxhicD9QAA",
+"authenticationProtocol":"deviceCode",
+"resourceServicePrincipalId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"tokenProtectionStatusDetails":
+{
+"signInSessionStatusCode":1004
+},
+"isThroughGlobalSecureAccess":false,
+"conditionalAccessAudiences":
+[
+"08d29c04-dala-25e3-7s9t-eb416c9349f2d"
+],
+"sessionId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"appOwnerTenantId":"08d29c04-dala-25e3-7s9t-eb416c9349f2d",
+"resourceOwnerTenantId ":"08d29c04-dala-25e3-7s9t-eb416c9349f2d"
+}
+},
+{
+"time": 1778538878,
+"resourceId":"/tenants/nsjj30598-n4if-ncjw-n29d-abufjw84nbe/providers/Microsoft.aadiam",
+"operationName":"Sign-in activity",
+"operationVersion":"1.0",
+"category": "SignInLogs",
+"tenantId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"resultType":"0",
+"resultSignature":"FAILURE",
+"durationMs":0,
+"callerIpAddress":"194.78.65.86",
+"correlationId":"c9900323-9d63-4236-ae24-d27629755b65",
+"identity":"Justin Beiber",
+"level":"4",
+"location":"BE",
+"properties":
+{
+"id":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"createdDateTime":"2026-05-09T21:29:45.6809629+00:00",
+"userDisplayName":"Justin Beiber",
+"userPrincipalName":"justin.beiber@myorg.com",
+"userId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"agent":
+{
+"agentType": "notAgentic",
+"agentSubjectType":"notAgentic"
+},
+"appId":"29d9ed98-a469-4536-ade2-f981bc1d605e",
+"appDisplayName":"Microsoft Authentication Broker",
+"ipAddress":"194.78.65.86",
+"status":
+{
+"errorCode":0,
+"additionalDetails":"MFA requirement not satisfied by claim in the token"
+},
+"clientAppUsed":"Mobile Apps and Desktop clients",
+"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10:15 ry:150.0) Gecko/20100101 Firefox/150.0",
+"deviceDetail":
+{
+"deviceId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"displayName":"Host4",
+"operatingSystem":"Windows",
+"browser":"Firefox 150.0",
+"isCompliant":true,
+"isManaged":true,
+"trustType":"Azure AD Joined"
+},
+"location":
+{
+"city":"Brussels",
+"state":"Brussels",
+"countryOrRegion":"BE",
+"geoCoordinates":
+{
+"latitude":50.85721969604492,
+"longitude":4.355830192565918
+}
+},
+"correlationId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"conditionalAccessStatus":"failure",
+"authenticationContextClassReferences":
+[
+{
+"id":"urn:user:registerdevice",
+"detail":"required"
+}
+],
+"originalRequestId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"isInteractive":true,
+"tokenIssuerType":"AzureAD",
+"authenticationProcessingDetails":
+[
+{
+"key":"Legacy TLS (Tls 1.0, 1.1, 3DES)",
+"value":"False"
+},
+{
+"key":"Is Legacy Store Used",
+"value": "False"
+},
+{
+"key":"Is CAE Token",
+"value":"False"
+}
+],
+"processingTimeInMilliseconds":362,
+"resourceDisplayName":"Device Registration Service",
+"resourceId":"0nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"resourceTenantId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"homeTenantId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"tenantId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"authenticationDetails":
+[
+{
+"authenticationStepDateTime":"2026-05-09T21:29:45.6809629+00:06",
+"authenticationMethod":"Previously satisfied",
+"succeeded":true,
+"authenticationStepResultDetail":"MFA requirement satisfied by claim in the token"
+}
+],
+"authenticationRequirementPolicies":
+[
+{
+"requirementProvider":"multiconditionalAccess",
+"detail":"Conditional Access"
+}
+],
+"authenticationRequirement":"multiFactorAuthentication",
+"servicePrincipalName":"Microsoft Authentication Broker",
+"signInEventTypes":
+[
+"interactiveUser"
+],
+"servicePrincipalId":"@=00€€00-(0=0-ee00-ee00-00000000000o",
+"userType": "Member",
+"flaggedForReview":false,
+"isTenantRestricted":false,
+"autonomousSystemNumber":5432,
+"privateLinkDetails":
+{
+},
+"uniqueTokenIdentifier":"Y9DSBEH309RJxxhicD9QAA",
+"authenticationProtocol":"deviceCode",
+"resourceServicePrincipalId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"tokenProtectionStatusDetails":
+{
+"signInSessionStatusCode":1004
+},
+"isThroughGlobalSecureAccess":false,
+"conditionalAccessAudiences":
+[
+"nsjj30598-n4if-ncjw-n29d-abufjw84nbe"
+],
+"sessionId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"appOwnerTenantId":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe",
+"resourceOwnerTenantId ":"nsjj30598-n4if-ncjw-n29d-abufjw84nbe"
+}
+},
+{
+"time": 1746809627,
+"resourceId":"/tenants/e3ossmek-3fr4-3mci-8495-jw3fee39r5ht/providers/Microsoft.aadiam",
+"operationName":"Sign-in activity",
+"operationVersion":"1.0",
+"category": "SignInLogs",
+"tenantId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"resultType":"0",
+"resultSignature":"SUCCESS",
+"durationMs":0,
+"callerIpAddress":"194.78.65.86",
+"correlationId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"identity":"Hannah Montana",
+"level":"4",
+"location":"BE",
+"properties":
+{
+"id":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"createdDateTime":"2026-05-09T21:29:45.6809629+00:00",
+"userDisplayName":"",
+"userPrincipalName":"hannah.montana@myorg.com",
+"userId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"agent":
+{
+"agentType": "notAgentic",
+"agentSubjectType":"notAgentic"
+},
+"appId":"29d9ed98-a469-4536-ade2-f981bc1d605e",
+"appDisplayName":"Microsoft Authentication Broker",
+"ipAddress":"194.78.65.86",
+"status":
+{
+"errorCode":0,
+"additionalDetails":"MFA requirement satisfied by claim in the token"
+},
+"clientAppUsed":"Mobile Apps and Desktop clients",
+"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10:15 ry:150.0) Gecko/20100101 Firefox/150.0",
+"deviceDetail":
+{
+"deviceId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"displayName":"Host5",
+"operatingSystem":"Windows",
+"browser":"Firefox 150.0",
+"isCompliant":true,
+"isManaged":true,
+"trustType":"Azure AD joined"
+},
+"location":
+{
+"city":"Brussels",
+"state":"Brussels",
+"countryOrRegion":"BE",
+"geoCoordinates":
+{
+"latitude":50.85721969604492,
+"longitude":4.355830192565918
+}
+},
+"correlationId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"conditionalAccessStatus":"success",
+"authenticationContextClassReferences":
+[
+{
+"id":"urn:user:registerdevice",
+"detail":"required"
+}
+],
+"originalRequestId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"isInteractive":true,
+"tokenIssuerType":"AzureAD",
+"authenticationProcessingDetails":
+[
+{
+"key":"Legacy TLS (Tls 1.0, 1.1, 3DES)",
+"value":"False"
+},
+{
+"key":"Is Legacy Store Used",
+"value": "False"
+},
+{
+"key":"Is CAE Token",
+"value":"False"
+}
+],
+"processingTimeInMilliseconds":362,
+"resourceDisplayName":"Device Registration Service",
+"resourceId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"resourceTenantId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"homeTenantId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"tenantId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"authenticationDetails":
+[
+{
+"authenticationStepDateTime":"2026-05-09T21:29:45.6809629+00:06",
+"authenticationMethod":"Previously satisfied",
+"succeeded":true,
+"authenticationStepResultDetail":"MFA requirement satisfied by claim in the token"
+}
+],
+"authenticationRequirementPolicies":
+[
+{
+"requirementProvider":"multiconditionalAccess",
+"detail":"Conditional Access"
+}
+],
+"authenticationRequirement":"multiFactorAuthentication",
+"servicePrincipalName":"Microsoft Authentication Broker",
+"signInEventTypes":
+[
+"interactiveUser"
+],
+"servicePrincipalId":"@=00€€00-(0=0-ee00-ee00-00000000000o",
+"userType": "Member",
+"flaggedForReview":false,
+"isTenantRestricted":false,
+"autonomousSystemNumber":5432,
+"privateLinkDetails":
+{
+},
+"uniqueTokenIdentifier":"Y9DBSHEYR63yxxhicD9QAA",
+"authenticationProtocol":"deviceCode",
+"resourceServicePrincipalId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"tokenProtectionStatusDetails":
+{
+"signInSessionStatusCode":1004
+},
+"isThroughGlobalSecureAccess":false,
+"conditionalAccessAudiences":
+[
+"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht"
+],
+"sessionId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"appOwnerTenantId":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht",
+"resourceOwnerTenantId ":"e3ossmek-3fr4-3mci-8495-jw3fee39r5ht"
+}
+}]
